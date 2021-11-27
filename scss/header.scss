@@ -1,0 +1,105 @@
+$colorYellow: #ffeb3b;
+
+@mixin fontStyle($font, $size, $color, $weight){
+  font-family: $font;
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
+
+.header {
+  background-image: url('../img/header/content.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  &__top {
+    display: flex;
+    padding-top: 60px;
+    width: inherit;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.3);
+  }
+  &__logo {
+    flex: 25.5%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__logoLink {}
+  &__logoImg {
+    height: 75%;
+  }
+  &__menu {
+    flex: 49%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+    top:  1px;
+  }
+  &__search {
+    flex: 25.5%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  &__separator {
+    width: 1px;
+    height: 40px;
+    border-left: 1px solid #fff;
+  }
+  &__searchIcon {
+    margin: 7px 0 0 30px;
+    font-size: 25px;
+  }
+  &__content {
+    padding: 300px 0 250px 0;
+  }
+  &__title {
+    @include fontStyle('back_to_black_demoregular', 110px, #fff, normal);
+    text-align: center;
+    line-height: 250px;
+
+    &--big {
+      font-size: 280px;
+    }
+  }
+}
+
+.menu {
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  &__item {
+    color: #fff;
+    padding-bottom: 50px;
+
+    &--active {
+      color: $colorYellow;
+      border-bottom: 1px solid $colorYellow;
+    }
+  }
+  &__link {
+    @include fontStyle('vidalokaregular', 22px, inherit, normal);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  }
+}
+
+.search {
+
+  &__icon {
+    color: #fff;
+    cursor: pointer;
+  }
+  &__textInput {
+    display: none;
+  }
+  &__submit {
+    display: none;
+  }
+}
