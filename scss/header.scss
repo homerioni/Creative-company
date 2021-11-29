@@ -1,11 +1,4 @@
-$colorYellow: #ffeb3b;
-
-@mixin fontStyle($font, $size, $color, $weight){
-  font-family: $font;
-  font-size: $size;
-  color: $color;
-  font-weight: $weight;
-}
+@import "source";
 
 .header {
   background-image: url('../img/header/content.png');

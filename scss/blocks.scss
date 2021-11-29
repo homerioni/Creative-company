@@ -1,0 +1,12 @@
+@import "source";
+
+.title {
+  @include fontStyle('vidalokaregular', 77px, #333, normal);
+  text-align: center;
+  text-transform: capitalize;
+
+  &--yellow {
+    color: $colorYellow;
+    text-decoration: underline;
+  }
+}
