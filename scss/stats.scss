@@ -1,0 +1,32 @@
+@import "source";
+
+.stats {
+  padding: 150px 0;
+  text-align: center;
+  background-image: url('../img/stats/background.png');
+
+  &__content {
+    display: flex;
+  }
+
+  &__item {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__icon {
+    width: 12%;
+    margin: 0 auto;
+  }
+
+  &__number {
+    @include fontStyle('vidalokaregular', 100px, #fff, normal);
+    margin: 50px 0;
+  }
+
+  &__name {
+    @include fontStyle('vidalokaregular', 35px, $colorYellow, normal);
+    text-transform: uppercase;
+  }
+}
