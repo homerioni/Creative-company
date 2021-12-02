@@ -1,9 +1,10 @@
 @import "reset";
 @import "blocks";
 @import "header";
-@import "service";
+@import "coreService";
 @import "stats";
 @import "portfolio";
+@import "service";
 
 .container {
   max-width: 2500px;

@@ -1,49 +1,68 @@
 @import "source";
 
 .service {
-  margin: 150px 0 200px 0;
+  padding: 300px 0;
 
   &__title {
-    margin-bottom: 250px;
-  }
-
-  &__row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 150px;
-  }
-}
-
-.serviceInfo {
-  display: flex;
-  flex: 33.333%;
-  justify-content: space-between;
-
-  &__icon {
-    margin-right: 50px;
-    width: 90px;
-  }
-
-  &__img {
-    width: 100%;
-  }
-
-  &__separator {
-    width: 1px;
-    border-left: 1px #f1f1f1 solid;
-  }
-
-  &__column {
-    margin: 0 100px 0 50px;
-  }
-
-  &__title {
-    @include fontStyle('open_sansregular', 30px, #313131, normal);
     margin-bottom: 50px;
   }
-
   &__description {
-    @include fontStyle('open_sansregular', 22px, #969595, normal);
-    line-height: 40px;
+    margin: 0 auto 200px auto;
+  }
+  &__infoBlocks {
+    display: flex;
+    flex-direction: column;
+  }
+  &__row {
+    display: flex;
+    height: 700px;
+    margin: 35px 0;
+  }
+  &__item {
+    flex: 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin: 0 35px;
+    padding: 0 70px;
+    color: #fff;
+
+    &Title {
+      @include fontStyle('open_sansregular', 50px, '', normal);
+      margin-bottom: 50px;
+    }
+    &Description {
+      @include fontStyle('open_sansregular', 30px, '', normal);
+      line-height: 50px;
+      margin-bottom: 100px;
+    }
+    &Link {
+      @include fontStyle('open_sansregular', 35px, $colorYellow, bold);
+
+      &--black {
+        color: #000;
+      }
+    }
+    &--red {
+      background-color: #ff5252;
+    }
+    &--green {
+      background-color: #4caf50;
+    }
+    &--purple {
+      background-color: #673ab7;
+    }
+    &--blue {
+      background-color: #2196f3;
+    }
+    &--yellow {
+      background-color: $colorYellow;
+      color: #000;
+    }
+    &--aqua {
+      background-color: #00bcd4;
+    }
   }
 }

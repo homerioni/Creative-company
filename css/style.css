@@ -49,7 +49,6 @@ button {
   font-weight: normal;
   text-align: center;
   width: 60%;
-  margin: 0 auto;
 }
 
 .header {
@@ -168,13 +167,13 @@ button {
   display: none;
 }
 
-.service {
+.coreService {
   margin: 150px 0 200px 0;
 }
-.service__title {
+.coreService__title {
   margin-bottom: 250px;
 }
-.service__row {
+.coreService__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,7 +183,7 @@ button {
   margin-bottom: 150px;
 }
 
-.serviceInfo {
+.coreServiceInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,28 +194,28 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.serviceInfo__icon {
+.coreServiceInfo__icon {
   margin-right: 50px;
   width: 90px;
 }
-.serviceInfo__img {
+.coreServiceInfo__img {
   width: 100%;
 }
-.serviceInfo__separator {
+.coreServiceInfo__separator {
   width: 1px;
   border-left: 1px #f1f1f1 solid;
 }
-.serviceInfo__column {
+.coreServiceInfo__column {
   margin: 0 100px 0 50px;
 }
-.serviceInfo__title {
+.coreServiceInfo__title {
   font-family: "open_sansregular";
   font-size: 30px;
   color: #313131;
   font-weight: normal;
   margin-bottom: 50px;
 }
-.serviceInfo__description {
+.coreServiceInfo__description {
   font-family: "open_sansregular";
   font-size: 22px;
   color: #969595;
@@ -265,29 +264,6 @@ button {
   text-transform: uppercase;
 }
 
-.title {
-  font-family: "vidalokaregular";
-  font-size: 77px;
-  color: #333;
-  font-weight: normal;
-  text-align: center;
-  text-transform: capitalize;
-}
-.title--yellow {
-  color: #ffeb3b;
-  text-decoration: underline;
-}
-
-.description {
-  font-family: "open_sansregular";
-  font-size: 35px;
-  color: #969595;
-  font-weight: normal;
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-}
-
 @-webkit-keyframes animateVisible {
   from {
     opacity: 0;
@@ -306,13 +282,13 @@ button {
   }
 }
 .portfolio {
-  padding: 200px 0;
+  padding-top: 200px;
 }
 .portfolio__title {
   margin-bottom: 50px;
 }
 .portfolio__description {
-  margin-bottom: 200px;
+  margin: 0 auto 200px auto;
 }
 .portfolio__menu {
   margin-bottom: 150px;
@@ -446,6 +422,95 @@ button {
   padding: 20px 0;
   width: 400px;
   text-align: center;
+}
+
+.service {
+  padding: 300px 0;
+}
+.service__title {
+  margin-bottom: 50px;
+}
+.service__description {
+  margin: 0 auto 200px auto;
+}
+.service__infoBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  margin: 35px 0;
+}
+.service__item {
+  -webkit-box-flex: 33.333%;
+      -ms-flex: 33.333%;
+          flex: 33.333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin: 0 35px;
+  padding: 0 70px;
+  color: #fff;
+}
+.service__itemTitle {
+  font-family: "open_sansregular";
+  font-size: 50px;
+  color: "";
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.service__itemDescription {
+  font-family: "open_sansregular";
+  font-size: 30px;
+  color: "";
+  font-weight: normal;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
+.service__itemLink {
+  font-family: "open_sansregular";
+  font-size: 35px;
+  color: #ffeb3b;
+  font-weight: bold;
+}
+.service__itemLink--black {
+  color: #000;
+}
+.service__item--red {
+  background-color: #ff5252;
+}
+.service__item--green {
+  background-color: #4caf50;
+}
+.service__item--purple {
+  background-color: #673ab7;
+}
+.service__item--blue {
+  background-color: #2196f3;
+}
+.service__item--yellow {
+  background-color: #ffeb3b;
+  color: #000;
+}
+.service__item--aqua {
+  background-color: #00bcd4;
 }
 
 .container {
