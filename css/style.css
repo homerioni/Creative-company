@@ -288,6 +288,23 @@ button {
   margin: 0 auto;
 }
 
+@-webkit-keyframes animateVisible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animateVisible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .portfolio {
   padding: 200px 0;
 }
@@ -373,19 +390,27 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.works__item:hover:before {
+.works__item:before {
   content: " ";
   display: block;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1%;
   height: 100%;
   background-color: #ffeb3b;
+  opacity: 0;
+  -webkit-transition: opacity 1s, width 1s;
+  transition: opacity 1s, width 1s;
+}
+.works__item:hover:before {
   opacity: 0.8;
+  width: 100%;
 }
 .works__item * {
   opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 .works__item:hover * {
   opacity: 1;
