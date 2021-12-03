@@ -1,0 +1,32 @@
+@import "source";
+
+.footer {
+  padding: 100px 0;
+  background-image: url("../img/footer/Path.png");
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+
+  &__divLogo {}
+  &__logo {
+    height: 120px;
+    margin-bottom: 100px;
+  }
+  &__author {
+    @include fontStyle('vidalokaregular', 35px, $colorWhite, normal);
+    margin-bottom: 100px;
+  }
+  &__links {}
+  &__linkItem {
+    font-size: 70px;
+    color: $colorWhite;
+    margin: 0 40px;
+    text-decoration: none;
+
+    &:hover {
+      color: $colorYellow;
+    }
+  }
+}

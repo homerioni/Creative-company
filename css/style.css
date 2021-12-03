@@ -16,7 +16,7 @@ body, html {
 }
 
 .page {
-  padding-bottom: 150px;
+  padding-bottom: 649px;
 }
 
 img {
@@ -674,6 +674,36 @@ button {
   font-size: 35px;
   color: #000;
   font-weight: normal;
+}
+
+.footer {
+  padding: 100px 0;
+  background-image: url("../img/footer/Path.png");
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.footer__logo {
+  height: 120px;
+  margin-bottom: 100px;
+}
+.footer__author {
+  font-family: "vidalokaregular";
+  font-size: 35px;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+.footer__linkItem {
+  font-size: 70px;
+  color: #fff;
+  margin: 0 40px;
+  text-decoration: none;
+}
+.footer__linkItem:hover {
+  color: #ffeb3b;
 }
 
 .container {
