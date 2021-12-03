@@ -1,0 +1,26 @@
+@import "source";
+
+.clients {
+  background-image: url("../img/clients/Path.png");
+  padding: 250px 0;
+
+  &__title {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 70px;
+  }
+  &__description {
+    text-align: left;
+    line-height: 50px;
+    margin-bottom: 200px;
+    width: 80%;
+  }
+  &__slider {}
+  &__item {
+    margin-bottom: 100px;
+  }
+  &__logo {
+    margin: 0 auto;
+    height: 80px;
+  }
+}

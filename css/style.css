@@ -513,6 +513,29 @@ button {
   background-color: #00bcd4;
 }
 
+.clients {
+  background-image: url("../img/clients/Path.png");
+  padding: 250px 0;
+}
+.clients__title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.clients__description {
+  text-align: left;
+  line-height: 50px;
+  margin-bottom: 200px;
+  width: 80%;
+}
+.clients__item {
+  margin-bottom: 100px;
+}
+.clients__logo {
+  margin: 0 auto;
+  height: 80px;
+}
+
 .container {
   max-width: 2500px;
   margin: 0 auto;
