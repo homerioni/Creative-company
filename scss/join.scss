@@ -1,0 +1,42 @@
+@import "source";
+
+.join {
+  background-image: url("../img/join/Path.png");
+  padding: 350px 0 250px 0;
+
+  &__title {
+    font-size: 120px;
+    margin-bottom: 50px;
+    color: $colorWhite;
+  }
+  &__description {
+    margin: 0 auto 150px auto;
+    width: 40%;
+    line-height: 50px;
+  }
+  &__form {
+    text-align: center;
+  }
+  &__mailInput {
+    width: 40%;
+    height: 120px;
+    padding: 0 50px;
+    border: none;
+    background-color: $colorGrayBlue;
+    @include fontStyle('open_sansregular', 30px, $colorWhite, normal);
+
+    &::placeholder {
+      color: $colorWhite;
+    }
+  }
+  &__submit {
+    width: 15%;
+    height: 120px;
+    border: none;
+    margin-left: 50px;
+    position: relative;
+    top: 3px;
+    background-color: $colorYellow;
+    @include fontStyle('open_sansregular', 35px, $colorBlack, normal);
+  }
+}

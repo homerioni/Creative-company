@@ -619,6 +619,63 @@ button {
   color: #fff;
 }
 
+.join {
+  background-image: url("../img/join/Path.png");
+  padding: 350px 0 250px 0;
+}
+.join__title {
+  font-size: 120px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.join__description {
+  margin: 0 auto 150px auto;
+  width: 40%;
+  line-height: 50px;
+}
+.join__form {
+  text-align: center;
+}
+.join__mailInput {
+  width: 40%;
+  height: 120px;
+  padding: 0 50px;
+  border: none;
+  background-color: #5c5f66;
+  font-family: "open_sansregular";
+  font-size: 30px;
+  color: #fff;
+  font-weight: normal;
+}
+.join__mailInput::-webkit-input-placeholder {
+  color: #fff;
+}
+.join__mailInput::-moz-placeholder {
+  color: #fff;
+}
+.join__mailInput:-ms-input-placeholder {
+  color: #fff;
+}
+.join__mailInput::-ms-input-placeholder {
+  color: #fff;
+}
+.join__mailInput::placeholder {
+  color: #fff;
+}
+.join__submit {
+  width: 15%;
+  height: 120px;
+  border: none;
+  margin-left: 50px;
+  position: relative;
+  top: 3px;
+  background-color: #ffeb3b;
+  font-family: "open_sansregular";
+  font-size: 35px;
+  color: #000;
+  font-weight: normal;
+}
+
 .container {
   max-width: 2500px;
   margin: 0 auto;
