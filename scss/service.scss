@@ -27,7 +27,7 @@
     height: 100%;
     margin: 0 35px;
     padding: 0 70px;
-    color: #fff;
+    color: $colorWhite;
 
     &Title {
       @include fontStyle('open_sansregular', 50px, '', normal);
@@ -42,7 +42,7 @@
       @include fontStyle('open_sansregular', 35px, $colorYellow, bold);
 
       &--black {
-        color: #000;
+        color: $colorBlack;
       }
     }
     &--red {

@@ -1,7 +1,7 @@
 @import "source";
 
 .title {
-  @include fontStyle('vidalokaregular', 77px, #333, normal);
+  @include fontStyle('vidalokaregular', 77px, $colorBlackGray, normal);
   text-align: center;
   text-transform: capitalize;
 
@@ -12,7 +12,7 @@
 }
 
 .description {
-  @include fontStyle('open_sansregular', 35px, #969595, normal);
+  @include fontStyle('open_sansregular', 35px, $colorGray, normal);
   text-align: center;
   width: 60%;
 }

@@ -30,7 +30,7 @@
 
   &__separator {
     width: 1px;
-    border-left: 1px #f1f1f1 solid;
+    border-left: 1px $colorWhiteGray solid;
   }
 
   &__column {
@@ -38,12 +38,12 @@
   }
 
   &__title {
-    @include fontStyle('open_sansregular', 30px, #313131, normal);
+    @include fontStyle('open_sansregular', 30px, $colorBlackGray, normal);
     margin-bottom: 50px;
   }
 
   &__description {
-    @include fontStyle('open_sansregular', 22px, #969595, normal);
+    @include fontStyle('open_sansregular', 22px, $colorGray, normal);
     line-height: 40px;
   }
 }

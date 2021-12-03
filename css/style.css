@@ -153,7 +153,7 @@ button {
   font-weight: normal;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 0 0 15px black;
+  text-shadow: 0 0 15px #000;
 }
 
 .search__icon {
@@ -211,7 +211,7 @@ button {
 .coreServiceInfo__title {
   font-family: "open_sansregular";
   font-size: 30px;
-  color: #313131;
+  color: #333;
   font-weight: normal;
   margin-bottom: 50px;
 }

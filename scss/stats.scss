@@ -21,7 +21,7 @@
   }
 
   &__number {
-    @include fontStyle('vidalokaregular', 100px, #fff, normal);
+    @include fontStyle('vidalokaregular', 100px, $colorWhite, normal);
     margin: 50px 0;
   }
 

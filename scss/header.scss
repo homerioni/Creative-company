@@ -38,7 +38,7 @@
   &__separator {
     width: 1px;
     height: 40px;
-    border-left: 1px solid #fff;
+    border-left: 1px solid $colorWhite;
   }
   &__searchIcon {
     margin: 7px 0 0 30px;
@@ -48,7 +48,7 @@
     padding: 300px 0 250px 0;
   }
   &__title {
-    @include fontStyle('back_to_black_demoregular', 110px, #fff, normal);
+    @include fontStyle('back_to_black_demoregular', 110px, $colorWhite, normal);
     text-align: center;
     line-height: 250px;
 
@@ -67,7 +67,7 @@
     width: 100%;
   }
   &__item {
-    color: #fff;
+    color: $colorWhite;
     padding-bottom: 50px;
 
     &--active {
@@ -79,14 +79,14 @@
     @include fontStyle('vidalokaregular', 22px, inherit, normal);
     text-transform: uppercase;
     text-decoration: none;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 15px $colorBlack;
   }
 }
 
 .search {
 
   &__icon {
-    color: #fff;
+    color: $colorWhite;
     cursor: pointer;
   }
   &__textInput {
