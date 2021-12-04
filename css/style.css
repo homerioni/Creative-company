@@ -159,12 +159,25 @@ button {
 .search__icon {
   color: #fff;
   cursor: pointer;
+  position: relative;
+  top: -3px;
 }
 .search__textInput {
-  display: none;
-}
-.search__submit {
-  display: none;
+  opacity: 0;
+  width: 0;
+  border: none;
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  top: -3px;
+  padding: 0 5px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  text-align: right;
+  font-family: "open_sansregular";
+  font-size: 30px;
+  color: #fff;
+  font-weight: normal;
 }
 
 .coreService {
@@ -564,7 +577,7 @@ button {
 .team__info {
   text-align: center;
   padding: 40px 0;
-  border: 1px #f1f1f1 solid;
+  border: 3px #f1f1f1 solid;
   margin-top: -4px;
 }
 .team__name {
@@ -591,7 +604,7 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 40px 0;
-  border: 1px #f1f1f1 solid;
+  border: 3px #f1f1f1 solid;
   border-top: none;
 }
 .team__linkItem {
@@ -607,7 +620,7 @@ button {
   font-size: 40px;
   color: #dadada;
   margin: 0 20px;
-  border: 1px #f1f1f1 solid;
+  border: 2px #f1f1f1 solid;
   border-radius: 100%;
   width: 80px;
   height: 80px;
@@ -615,13 +628,13 @@ button {
 }
 .team__linkItem:hover {
   background-color: #ffeb3b;
-  border: 1px solid #ffeb3b;
+  border: 2px solid #ffeb3b;
   color: #fff;
 }
 
 .join {
   background-image: url("../img/join/Path.png");
-  padding: 350px 0 250px 0;
+  padding: 250px 0 250px 0;
 }
 .join__title {
   font-size: 120px;
@@ -674,6 +687,9 @@ button {
   font-size: 35px;
   color: #000;
   font-weight: normal;
+}
+.join__submit:hover {
+  opacity: 0.8;
 }
 
 .footer {

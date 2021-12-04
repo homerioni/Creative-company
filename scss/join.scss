@@ -2,7 +2,7 @@
 
 .join {
   background-image: url("../img/join/Path.png");
-  padding: 350px 0 250px 0;
+  padding: 250px 0 250px 0;
 
   &__title {
     font-size: 120px;
@@ -38,5 +38,9 @@
     top: 3px;
     background-color: $colorYellow;
     @include fontStyle('open_sansregular', 35px, $colorBlack, normal);
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }

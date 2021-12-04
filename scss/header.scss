@@ -88,11 +88,20 @@
   &__icon {
     color: $colorWhite;
     cursor: pointer;
+    position: relative;
+    top: -3px;
   }
   &__textInput {
-    display: none;
-  }
-  &__submit {
-    display: none;
+    opacity: 0;
+    width: 0;
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    position: relative;
+    top: -3px;
+    padding: 0 5px;
+    transition: width 1s;
+    text-align: right;
+    @include fontStyle('open_sansregular', 30px, $colorWhite, normal);
   }
 }

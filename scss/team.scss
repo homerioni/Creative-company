@@ -24,7 +24,7 @@
   &__info {
     text-align: center;
     padding: 40px 0;
-    border: 1px $colorWhiteGray solid;
+    border: 3px $colorWhiteGray solid;
     margin-top: -4px;
   }
   &__name {
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     padding: 40px 0;
-    border: 1px $colorWhiteGray solid;
+    border: 3px $colorWhiteGray solid;
     border-top: none;
   }
   &__linkItem {
@@ -51,7 +51,7 @@
     font-size: 40px;
     color: #dadada;
     margin: 0 20px;
-    border: 1px $colorWhiteGray solid;
+    border: 2px $colorWhiteGray solid;
     border-radius: 100%;
     width: 80px;
     height: 80px;
@@ -59,7 +59,7 @@
 
     &:hover {
       background-color: $colorYellow;
-      border: 1px solid $colorYellow;
+      border: 2px solid $colorYellow;
       color: #fff;
     }
   }
