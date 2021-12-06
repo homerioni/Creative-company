@@ -29,4 +29,19 @@
       color: $colorYellow;
     }
   }
+
+
+
+  @media (max-width: 2880px) {
+
+    &__logo {
+      height: 100px;
+    }
+    &__author {
+      font-size: 30px;
+    }
+    &__linkItem {
+      font-size: 50px;
+    }
+  }
 }

@@ -9,10 +9,22 @@
     color: $colorYellow;
     text-decoration: underline;
   }
+
+
+
+  @media (max-width: 2880px) {
+    font-size: 55px;
+  }
 }
 
 .description {
   @include fontStyle('open_sansregular', 35px, $colorGray, normal);
   text-align: center;
   width: 60%;
+
+
+
+  @media (max-width: 2880px) {
+    font-size: 28px;
+  }
 }

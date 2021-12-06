@@ -10,6 +10,14 @@
 @import "join";
 @import "footer";
 
+.page {
+  padding-bottom: 649px;
+
+  @media (max-width: 2880px) {
+    padding-bottom: 600px;
+  }
+}
+
 .container {
   max-width: 2500px;
   margin: 0 auto;

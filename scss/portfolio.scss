@@ -37,6 +37,16 @@
       background-color: $colorYellow;
     }
   }
+
+
+
+  @media (max-width: 2880px) {
+
+    &__button {
+      padding: 25px 60px;
+      font-size: 25px;
+    }
+  }
 }
 
 .works {
@@ -120,5 +130,29 @@
     padding: 20px 0;
     width: 400px;
     text-align: center;
+  }
+
+
+
+  @media (max-width: 3200px) {
+
+    &__item {
+      padding: 70px 90px;
+    }
+  }
+
+  @media (max-width: 2880px) {
+
+    &__itemTitle {
+      margin-bottom: 80px;
+      font-size: 53px;
+    }
+    &__itemDescription {
+      margin-bottom: 50px;
+      font-size: 30px;
+    }
+    &__itemButton {
+      font-size: 30px;
+    }
   }
 }

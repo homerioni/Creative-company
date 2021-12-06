@@ -15,10 +15,6 @@ body, html {
   position: relative;
 }
 
-.page {
-  padding-bottom: 649px;
-}
-
 img {
   width: auto;
   height: auto;
@@ -41,6 +37,11 @@ button {
   color: #ffeb3b;
   text-decoration: underline;
 }
+@media (max-width: 2880px) {
+  .title {
+    font-size: 55px;
+  }
+}
 
 .description {
   font-family: "open_sansregular";
@@ -49,6 +50,11 @@ button {
   font-weight: normal;
   text-align: center;
   width: 60%;
+}
+@media (max-width: 2880px) {
+  .description {
+    font-size: 28px;
+  }
 }
 
 .header {
@@ -159,6 +165,11 @@ button {
   text-decoration: none;
   text-shadow: 0 0 15px #000;
 }
+@media (max-width: 2880px) {
+  .menu__link {
+    font-size: 18px;
+  }
+}
 
 .search__icon {
   color: #fff;
@@ -183,6 +194,11 @@ button {
   color: #fff;
   font-weight: normal;
 }
+@media (max-width: 2880px) {
+  .search__textInput {
+    font-size: 22px;
+  }
+}
 
 .coreService {
   margin: 150px 0 200px 0;
@@ -198,6 +214,11 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 150px;
+}
+@media (max-width: 2880px) {
+  .coreService {
+    font-size: 20px;
+  }
 }
 
 .coreServiceInfo {
@@ -239,6 +260,14 @@ button {
   font-weight: normal;
   line-height: 40px;
 }
+@media (max-width: 2880px) {
+  .coreServiceInfo__icon {
+    margin-right: 30px;
+  }
+  .coreServiceInfo__column {
+    margin: 0 50px 0 30px;
+  }
+}
 
 .stats {
   padding: 150px 0;
@@ -279,6 +308,17 @@ button {
   color: #ffeb3b;
   font-weight: normal;
   text-transform: uppercase;
+}
+@media (max-width: 2880px) {
+  .stats__icon {
+    width: 16%;
+  }
+  .stats__number {
+    font-size: 80px;
+  }
+  .stats__name {
+    font-size: 30px;
+  }
 }
 
 @-webkit-keyframes animateVisible {
@@ -330,6 +370,12 @@ button {
 }
 .portfolio__button--active {
   background-color: #ffeb3b;
+}
+@media (max-width: 2880px) {
+  .portfolio__button {
+    padding: 25px 60px;
+    font-size: 25px;
+  }
 }
 
 .works {
@@ -440,6 +486,24 @@ button {
   width: 400px;
   text-align: center;
 }
+@media (max-width: 3200px) {
+  .works__item {
+    padding: 70px 90px;
+  }
+}
+@media (max-width: 2880px) {
+  .works__itemTitle {
+    margin-bottom: 80px;
+    font-size: 53px;
+  }
+  .works__itemDescription {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  .works__itemButton {
+    font-size: 30px;
+  }
+}
 
 .service {
   padding: 300px 0;
@@ -529,6 +593,29 @@ button {
 .service__item--aqua {
   background-color: #00bcd4;
 }
+@media (max-width: 2880px) {
+  .service {
+    padding: 200px 0;
+  }
+  .service__row {
+    height: 500px;
+    margin: 20px 0;
+  }
+  .service__item {
+    margin: 0 20px;
+    padding: 0 40px;
+  }
+  .service__itemTitle {
+    font-size: 40px;
+  }
+  .service__itemDescription {
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .service__itemLink {
+    font-size: 30px;
+  }
+}
 
 .clients {
   background-image: url("../img/clients/Path.png");
@@ -551,6 +638,14 @@ button {
 .clients__logo {
   margin: 0 auto;
   height: 80px;
+}
+@media (max-width: 2880px) {
+  .clients {
+    padding: 200px 0;
+  }
+  .clients__logo {
+    height: 60px;
+  }
 }
 
 .team {
@@ -635,6 +730,22 @@ button {
   border: 2px solid #ffeb3b;
   color: #fff;
 }
+@media (max-width: 2880px) {
+  .team {
+    padding: 200px 0;
+  }
+  .team__title {
+    font-size: 90px;
+  }
+  .team__description {
+    margin-bottom: 150px;
+  }
+  .team__linkItem {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+  }
+}
 
 .join {
   background-image: url("../img/join/Path.png");
@@ -695,6 +806,21 @@ button {
 .join__submit:hover {
   opacity: 0.8;
 }
+@media (max-width: 2880px) {
+  .join {
+    padding: 200px 0;
+  }
+  .join__title {
+    font-size: 90px;
+  }
+  .join__mailInput {
+    height: 100px;
+    font-size: 28px;
+  }
+  .join__submit {
+    height: 100px;
+  }
+}
 
 .footer {
   padding: 100px 0;
@@ -724,6 +850,26 @@ button {
 }
 .footer__linkItem:hover {
   color: #ffeb3b;
+}
+@media (max-width: 2880px) {
+  .footer__logo {
+    height: 100px;
+  }
+  .footer__author {
+    font-size: 30px;
+  }
+  .footer__linkItem {
+    font-size: 50px;
+  }
+}
+
+.page {
+  padding-bottom: 649px;
+}
+@media (max-width: 2880px) {
+  .page {
+    padding-bottom: 600px;
+  }
 }
 
 .container {

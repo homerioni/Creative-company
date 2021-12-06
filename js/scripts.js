@@ -12,10 +12,18 @@ $(document).ready(function () {
 
     //  Search input
     $('.search__icon').click(function () {
-        $('.search__textInput').css({
-            'width':'350px',
-            'opacity':'1'
-        });
+        let width = $(document).width();
+        if (width > 2880) {
+            $('.search__textInput').css({
+                'width':'350px',
+                'opacity':'1'
+            });
+        } else if (width > 1920) {
+            $('.search__textInput').css({
+                'width':'250px',
+                'opacity':'1'
+            });
+        }
         $('.search__icon').css('display', 'none');
     });
 

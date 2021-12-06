@@ -23,4 +23,14 @@
     margin: 0 auto;
     height: 80px;
   }
+
+
+
+  @media (max-width: 2880px) {
+    padding: 200px 0;
+
+    &__logo {
+      height: 60px;
+    }
+  }
 }

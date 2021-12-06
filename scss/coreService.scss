@@ -12,6 +12,12 @@
     justify-content: space-between;
     margin-bottom: 150px;
   }
+
+
+
+  @media (max-width: 2880px) {
+    font-size: 20px;
+  }
 }
 
 .coreServiceInfo {
@@ -45,5 +51,17 @@
   &__description {
     @include fontStyle('open_sansregular', 22px, $colorGray, normal);
     line-height: 40px;
+  }
+
+
+
+  @media (max-width: 2880px) {
+
+    &__icon {
+      margin-right: 30px;
+    }
+    &__column {
+      margin: 0 50px 0 30px;
+    }
   }
 }
