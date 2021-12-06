@@ -74,6 +74,11 @@
       color: $colorYellow;
       border-bottom: 1px solid $colorYellow;
     }
+
+    &:hover {
+      color: $colorYellow;
+      border-bottom: 1px solid $colorYellow;
+    }
   }
   &__link {
     @include fontStyle('vidalokaregular', 22px, inherit, normal);

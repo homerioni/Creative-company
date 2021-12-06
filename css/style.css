@@ -146,6 +146,10 @@ button {
   color: #ffeb3b;
   border-bottom: 1px solid #ffeb3b;
 }
+.menu__item:hover {
+  color: #ffeb3b;
+  border-bottom: 1px solid #ffeb3b;
+}
 .menu__link {
   font-family: "vidalokaregular";
   font-size: 22px;
@@ -367,7 +371,7 @@ button {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 3.5vw 3vw;
+  padding: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

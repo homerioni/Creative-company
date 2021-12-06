@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    //  Slider slick
     $('.multiple-items').slick({
         infinite: true,
         dots: true,
@@ -7,7 +8,9 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 2
     });
+    //  /Slider slick
 
+    //  Search input
     $('.search__icon').click(function () {
         $('.search__textInput').css({
             'width':'350px',
@@ -23,5 +26,58 @@ $(document).ready(function () {
         });
         $('.search__icon').css('display', 'block');
     });
+    //  /Search input
 
+    //  Portfolio button
+    $('#portfolioAll').click(function () {
+        $('.portfolio__button').removeClass('portfolio__button--active');
+        $(this).addClass('portfolio__button--active');
+        $('#worksItem1').css('background-image', 'url(\'img/portfolio/image_01.png\')');
+        $('#worksItem2').css('background-image', 'url(\'img/portfolio/image_02.png\')');
+        $('#worksItem3').css('background-image', 'url(\'img/portfolio/image_03.png\')');
+        $('#worksItem4').css('background-image', 'url(\'img/portfolio/image_04.png\')');
+        $('#worksItem5').css('background-image', 'url(\'img/portfolio/image_05.png\')');
+        $('#worksItem6').css('background-image', 'url(\'img/portfolio/image_06.png\')');
+    });
+    $('#portfolioDesign').click(function () {
+        $('.portfolio__button').removeClass('portfolio__button--active');
+        $(this).addClass('portfolio__button--active');
+        $('#worksItem1').css('background-image', 'url(\'img/portfolio/image_01.png\')');
+        $('#worksItem2').css('background-image', 'url(\'img/portfolio/image_03.png\')');
+        $('#worksItem3').css('background-image', 'url(\'img/portfolio/image_04.png\')');
+        $('#worksItem4').css('background-image', 'url(\'img/portfolio/image_05.png\')');
+        $('#worksItem5').css('background-image', 'url(\'img/portfolio/image_06.png\')');
+        $('#worksItem6').css('background-image', 'url(\'img/portfolio/image_02.png\')');
+    });
+    $('#portfolioCode').click(function () {
+        $('.portfolio__button').removeClass('portfolio__button--active');
+        $(this).addClass('portfolio__button--active');
+        $('#worksItem1').css('background-image', 'url(\'img/portfolio/image_01.png\')');
+        $('#worksItem2').css('background-image', 'url(\'img/portfolio/image_04.png\')');
+        $('#worksItem3').css('background-image', 'url(\'img/portfolio/image_05.png\')');
+        $('#worksItem4').css('background-image', 'url(\'img/portfolio/image_06.png\')');
+        $('#worksItem5').css('background-image', 'url(\'img/portfolio/image_02.png\')');
+        $('#worksItem6').css('background-image', 'url(\'img/portfolio/image_03.png\')');
+    });
+    $('#portfolioPhoto').click(function () {
+        $('.portfolio__button').removeClass('portfolio__button--active');
+        $(this).addClass('portfolio__button--active');
+        $('#worksItem1').css('background-image', 'url(\'img/portfolio/image_01.png\')');
+        $('#worksItem2').css('background-image', 'url(\'img/portfolio/image_05.png\')');
+        $('#worksItem3').css('background-image', 'url(\'img/portfolio/image_06.png\')');
+        $('#worksItem4').css('background-image', 'url(\'img/portfolio/image_02.png\')');
+        $('#worksItem5').css('background-image', 'url(\'img/portfolio/image_03.png\')');
+        $('#worksItem6').css('background-image', 'url(\'img/portfolio/image_04.png\')');
+    });
+    $('#portfolioApps').click(function () {
+        $('.portfolio__button').removeClass('portfolio__button--active');
+        $(this).addClass('portfolio__button--active');
+        $('#worksItem1').css('background-image', 'url(\'img/portfolio/image_01.png\')');
+        $('#worksItem2').css('background-image', 'url(\'img/portfolio/image_06.png\')');
+        $('#worksItem3').css('background-image', 'url(\'img/portfolio/image_02.png\')');
+        $('#worksItem4').css('background-image', 'url(\'img/portfolio/image_03.png\')');
+        $('#worksItem5').css('background-image', 'url(\'img/portfolio/image_04.png\')');
+        $('#worksItem6').css('background-image', 'url(\'img/portfolio/image_05.png\')');
+    });
+    //  /Portfolio button
 });
