@@ -33,4 +33,12 @@
       height: 60px;
     }
   }
+
+  @media (max-width: 2560px) {
+    padding: 120px 0;
+
+    &__logo {
+      height: 50px;
+    }
+  }
 }

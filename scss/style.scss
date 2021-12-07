@@ -16,6 +16,10 @@
   @media (max-width: 2880px) {
     padding-bottom: 600px;
   }
+
+  @media (max-width: 2560px) {
+    padding-bottom: 462px;
+  }
 }
 
 .container {
@@ -26,6 +30,13 @@
 @media (max-width: 2880px) {
   .container {
     max-width: 1700px;
+  }
+  .slick-dots li {
+    width: 10px;
+
+    & button:before {
+      font-size: 20px;
+    }
   }
 }
 

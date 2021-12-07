@@ -44,4 +44,20 @@
       font-size: 50px;
     }
   }
+
+  @media (max-width: 2560px) {
+    padding: 80px 0;
+
+    &__logo {
+      height: 80px;
+      margin-bottom: 70px;
+    }
+    &__author {
+      font-size: 26px;
+      margin-bottom: 70px;
+    }
+    &__linkItem {
+      font-size: 40px;
+    }
+  }
 }

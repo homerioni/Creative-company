@@ -91,4 +91,20 @@
       }
     }
   }
+
+  @media (max-width: 2560px) {
+    padding: 120px 0;
+
+    &__description {
+      font-size: 24px;
+      margin-bottom: 120px;
+    }
+    &__item {
+
+      &Description {
+        font-size: 24px;
+        line-height: 40px;
+      }
+    }
+  }
 }
