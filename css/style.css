@@ -146,6 +146,38 @@ button {
     padding: 200px 0;
   }
 }
+@media (max-width: 1600px) {
+  .header__top {
+    padding-top: 20px;
+  }
+  .header__logo {
+    -webkit-box-flex: 20%;
+        -ms-flex: 20%;
+            flex: 20%;
+  }
+  .header__menu {
+    -webkit-box-flex: 55%;
+        -ms-flex: 55%;
+            flex: 55%;
+    margin-left: 20px;
+  }
+  .header__search {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+    height: 61px;
+  }
+  .header__content {
+    padding: 100px 0;
+  }
+  .header__title {
+    line-height: 200px;
+    font-size: 90px;
+  }
+  .header__title--big {
+    font-size: 220px;
+  }
+}
 
 .menu__list {
   list-style: none;
@@ -190,6 +222,14 @@ button {
     font-size: 16px;
   }
 }
+@media (max-width: 1600px) {
+  .menu__item {
+    padding-bottom: 30px;
+  }
+  .menu__link {
+    font-size: 15px;
+  }
+}
 
 .search__icon {
   color: #fff;
@@ -228,6 +268,12 @@ button {
     font-size: 20px;
   }
 }
+@media (max-width: 1600px) {
+  .search__textInput {
+    top: 0;
+    font-size: 15px;
+  }
+}
 
 .coreService {
   margin: 150px 0 200px 0;
@@ -261,6 +307,18 @@ button {
   .coreService__title {
     font-size: 38px;
     margin-bottom: 100px;
+  }
+  .coreService__row {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 1600px) {
+  .coreService {
+    margin: 70px 0;
+  }
+  .coreService__title {
+    font-size: 30px;
+    margin-bottom: 70px;
   }
 }
 
@@ -325,6 +383,16 @@ button {
   .coreServiceInfo__description {
     font-size: 17px;
     line-height: 35px;
+  }
+}
+@media (max-width: 1600px) {
+  .coreServiceInfo__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .coreServiceInfo__description {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
 
@@ -408,6 +476,21 @@ button {
     font-size: 20px;
   }
 }
+@media (max-width: 1600px) {
+  .stats {
+    padding: 80px 0;
+  }
+  .stats__icon {
+    width: 40px;
+  }
+  .stats__number {
+    font-size: 44px;
+    margin: 25px 0;
+  }
+  .stats__name {
+    font-size: 18px;
+  }
+}
 
 @-webkit-keyframes animateVisible {
   from {
@@ -455,6 +538,7 @@ button {
   font-size: 30px;
   color: #181a1f;
   font-weight: normal;
+  cursor: pointer;
 }
 .portfolio__button--active {
   background-color: #ffeb3b;
@@ -500,6 +584,27 @@ button {
     padding: 13px 40px;
     font-size: 20px;
     margin: 0 5px;
+  }
+}
+@media (max-width: 1600px) {
+  .portfolio {
+    padding-top: 80px;
+  }
+  .portfolio__title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .portfolio__description {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+  .portfolio__menu {
+    margin-bottom: 40px;
+  }
+  .portfolio__button {
+    padding: 8px 30px;
+    font-size: 15px;
+    border: 2px #ffeb3b solid;
   }
 }
 
@@ -647,6 +752,25 @@ button {
     font-size: 25px;
     padding: 15px 0;
     width: 250px;
+  }
+}
+@media (max-width: 1600px) {
+  .works__item {
+    padding: 30px;
+  }
+  .works__itemTitle {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .works__itemDescription {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .works__itemButton {
+    font-size: 18px;
+    padding: 10px 0;
+    width: 180px;
+    border: 2px solid #181a1f;
   }
 }
 
@@ -807,6 +931,38 @@ button {
     font-size: 25px;
   }
 }
+@media (max-width: 1600px) {
+  .service {
+    padding: 80px 0;
+  }
+  .service__title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .service__description {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+  .service__row {
+    height: 280px;
+    margin: 8px 0;
+  }
+  .service__item {
+    margin: 0 8px;
+  }
+  .service__itemTitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .service__itemDescription {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  .service__itemLink {
+    font-size: 20px;
+  }
+}
 
 .clients {
   background-image: url("../img/clients/Path.png");
@@ -863,6 +1019,23 @@ button {
   }
   .clients__logo {
     height: 35px;
+  }
+}
+@media (max-width: 1600px) {
+  .clients {
+    padding: 80px 0;
+  }
+  .clients__title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .clients__description {
+    font-size: 16px;
+    margin-bottom: 80px;
+    line-height: 30px;
+  }
+  .clients__logo {
+    height: 30px;
   }
 }
 
@@ -1021,6 +1194,36 @@ button {
     margin: 0 10px;
   }
 }
+@media (max-width: 1600px) {
+  .team {
+    padding: 80px 0;
+  }
+  .team__title {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .team__description {
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+  .team__name {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .team__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .team__links {
+    padding: 15px 0;
+  }
+  .team__linkItem {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+}
 
 .join {
   background-image: url("../img/join/Path.png");
@@ -1141,6 +1344,31 @@ button {
     top: 1px;
   }
 }
+@media (max-width: 1600px) {
+  .join {
+    padding: 80px 0;
+  }
+  .join__title {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .join__description {
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+  .join__mailInput {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  .join__submit {
+    height: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+    top: 1px;
+  }
+}
 
 .footer {
   padding: 100px 0;
@@ -1215,6 +1443,22 @@ button {
     margin: 0 20px;
   }
 }
+@media (max-width: 1600px) {
+  .footer {
+    padding: 50px 0;
+  }
+  .footer__logo {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .footer__author {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .footer__linkItem {
+    font-size: 25px;
+  }
+}
 
 .page {
   padding-bottom: 649px;
@@ -1232,6 +1476,11 @@ button {
 @media (max-width: 1920px) {
   .page {
     padding-bottom: 357px;
+  }
+}
+@media (max-width: 1600px) {
+  .page {
+    padding-bottom: 253px;
   }
 }
 
@@ -1257,9 +1506,16 @@ button {
     max-width: 1170px;
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
   .container {
     max-width: 960px;
+  }
+
+  .slick-dots li {
+    width: 0;
+  }
+  .slick-dots li button:before {
+    font-size: 14px;
   }
 }
 @media (max-width: 991px) {

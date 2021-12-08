@@ -105,4 +105,29 @@
       top: 1px;
     }
   }
+
+  @media (max-width: 1600px) {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    &__description {
+      font-size: 16px;
+      margin-bottom: 50px;
+      line-height: 25px;
+    }
+    &__mailInput {
+      height: 50px;
+      padding: 0 20px;
+      font-size: 16px;
+    }
+    &__submit {
+      height: 50px;
+      font-size: 20px;
+      margin-left: 10px;
+      top: 1px;
+    }
+  }
 }

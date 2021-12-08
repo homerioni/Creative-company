@@ -137,4 +137,34 @@
       margin: 0 10px;
     }
   }
+
+  @media (max-width: 1600px) {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    &__description {
+      font-size: 16px;
+      margin-bottom: 80px;
+    }
+    &__name {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    &__links {
+      padding: 15px 0;
+    }
+    &__linkItem {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      margin: 0 10px;
+    }
+  }
 }

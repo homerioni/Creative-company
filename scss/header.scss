@@ -60,6 +60,7 @@
 
 
   @media (max-width: 1920px) {
+
     &__top {
       padding-top: 30px;
     }
@@ -69,6 +70,35 @@
     }
     &__content {
       padding: 200px 0;
+    }
+  }
+
+  @media (max-width: 1600px) {
+
+    &__top {
+      padding-top: 20px;
+    }
+    &__logo {
+      flex: 20%;
+    }
+    &__menu {
+      flex: 55%;
+      margin-left: 20px;
+    }
+    &__search {
+      flex: 25%;
+      height: 61px;
+    }
+    &__content {
+      padding: 100px 0;
+    }
+    &__title {
+      line-height: 200px;
+      font-size: 90px;
+
+      &--big {
+        font-size: 220px;
+      }
     }
   }
 }
@@ -122,6 +152,16 @@
       font-size: 16px;
     }
   }
+
+  @media (max-width: 1600px) {
+
+    &__item {
+      padding-bottom: 30px;
+    }
+    &__link {
+      font-size: 15px;
+    }
+  }
 }
 
 
@@ -165,6 +205,14 @@
     &__textInput {
       top: 0;
       font-size: 20px;
+    }
+  }
+
+  @media (max-width: 1600px) {
+
+    &__textInput {
+      top: 0;
+      font-size: 15px;
     }
   }
 }

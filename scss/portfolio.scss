@@ -32,6 +32,7 @@
     padding: 30px 80px;
     border: 4px $colorYellow solid;
     @include fontStyle('open_sansregular', 30px, $colorDarkBlue, normal);
+    cursor: pointer;
 
     &--active {
       background-color: $colorYellow;
@@ -82,6 +83,27 @@
       padding: 13px 40px;
       font-size: 20px;
       margin: 0 5px;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    padding-top: 80px;
+
+    &__title {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    &__description {
+      font-size: 16px;
+      margin-bottom: 60px;
+    }
+    &__menu {
+      margin-bottom: 40px;
+    }
+    &__button {
+      padding: 8px 30px;
+      font-size: 15px;
+      border: 2px $colorYellow solid;
     }
   }
 }
@@ -214,6 +236,27 @@
       font-size: 25px;
       padding: 15px 0;
       width: 250px;
+    }
+  }
+
+  @media (max-width: 1600px) {
+
+    &__item {
+      padding: 30px;
+    }
+    &__itemTitle {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    &__itemDescription {
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+    &__itemButton {
+      font-size: 18px;
+      padding: 10px 0;
+      width: 180px;
+      border: 2px solid $colorDarkBlue;
     }
   }
 }

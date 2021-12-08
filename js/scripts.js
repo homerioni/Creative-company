@@ -13,22 +13,20 @@ $(document).ready(function () {
     //  Search input
     $('.search__icon').click(function () {
         let width = $(document).width();
+        let input;
         if (width > 2880) {
-            $('.search__textInput').css({
-                'width':'350px',
-                'opacity':'1'
-            });
+            input = '350px';
         } else if (width > 1920) {
-            $('.search__textInput').css({
-                'width':'250px',
-                'opacity':'1'
-            });
+            input = '250px';
+        } else if (width > 1600) {
+            input = '200px';
         } else {
-            $('.search__textInput').css({
-                'width':'200px',
-                'opacity':'1'
-            });
+            input = '170px';
         }
+        $('.search__textInput').css({
+            'width':input,
+            'opacity':'1'
+        });
         $('.search__icon').css('display', 'none');
     });
 
