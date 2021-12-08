@@ -107,4 +107,38 @@
       }
     }
   }
+
+  @media (max-width: 1920px) {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    &__description {
+      font-size: 20px;
+      margin-bottom: 100px;
+    }
+    &__row {
+      margin: 15px 0;
+      height: 350px;
+    }
+    &__item {
+      margin: 0 15px;
+      padding: 0 25px;
+
+      &Title {
+        font-size: 30px;
+        margin-bottom: 25px;
+      }
+      &Description {
+        font-size: 20px;
+        margin-bottom: 25px;
+        line-height: 30px;
+      }
+      &Link {
+        font-size: 25px;
+      }
+    }
+  }
 }

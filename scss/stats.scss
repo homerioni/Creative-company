@@ -16,7 +16,7 @@
   }
 
   &__icon {
-    width: 12%;
+    width: 80px;
     margin: 0 auto;
   }
 
@@ -35,7 +35,7 @@
   @media (max-width: 2880px) {
 
     &__icon {
-      width: 16%;
+      width: 65px;
     }
     &__number {
       font-size: 80px;
@@ -49,13 +49,28 @@
     padding: 120px 0;
 
     &__icon {
-      width: 13%;
+      width: 55px;
     }
     &__number {
       font-size: 65px;
     }
     &__name {
       font-size: 26px;
+    }
+  }
+
+  @media (max-width: 1920px) {
+    padding: 100px 0;
+
+    &__icon {
+      width: 45px;
+    }
+    &__number {
+      margin: 30px 0;
+      font-size: 50px;
+    }
+    &__name {
+      font-size: 20px;
     }
   }
 }

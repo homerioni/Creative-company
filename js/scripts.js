@@ -23,6 +23,11 @@ $(document).ready(function () {
                 'width':'250px',
                 'opacity':'1'
             });
+        } else {
+            $('.search__textInput').css({
+                'width':'200px',
+                'opacity':'1'
+            });
         }
         $('.search__icon').css('display', 'none');
     });

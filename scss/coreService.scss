@@ -24,6 +24,15 @@
       margin-bottom: 150px;
     }
   }
+
+  @media (max-width: 1920px) {
+    margin: 100px 0;
+
+    &__title {
+      font-size: 38px;
+      margin-bottom: 100px;
+    }
+  }
 }
 
 .coreServiceInfo {
@@ -68,6 +77,24 @@
     }
     &__column {
       margin: 0 50px 0 30px;
+    }
+  }
+
+  @media (max-width: 1920px) {
+
+    &__column {
+      margin: 0 30px 0 20px;
+    }
+    &__icon {
+      margin-right: 20px;
+    }
+    &__title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+    &__description {
+      font-size: 17px;
+      line-height: 35px;
     }
   }
 }

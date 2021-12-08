@@ -41,4 +41,23 @@
       height: 50px;
     }
   }
+
+  @media (max-width: 1920px) {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    &__description {
+      font-size: 22px;
+      margin-bottom: 100px;
+    }
+    &__item {
+      margin-bottom: 50px;
+    }
+    &__logo {
+      height: 35px;
+    }
+  }
 }
