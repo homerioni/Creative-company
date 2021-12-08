@@ -101,6 +101,28 @@
       }
     }
   }
+
+  @media (max-width: 1366px) {
+
+    &__top {
+      padding-top: 15px;
+    }
+    &__search {
+      height: 50px;
+    }
+    &__searchIcon {
+      font-size: 18px;
+      margin: 8px 0 0 10px;
+    }
+    &__title {
+      font-size: 70px;
+      line-height: 160px;
+
+      &--big {
+        font-size: 180px;
+      }
+    }
+  }
 }
 
 
@@ -156,10 +178,17 @@
   @media (max-width: 1600px) {
 
     &__item {
-      padding-bottom: 30px;
+      padding-bottom: 0;
     }
     &__link {
       font-size: 15px;
+    }
+  }
+
+  @media (max-width: 1366px) {
+
+    &__item {
+      padding-bottom: 15px;
     }
   }
 }
@@ -213,6 +242,13 @@
     &__textInput {
       top: 0;
       font-size: 15px;
+    }
+  }
+
+  @media (max-width: 1366px) {
+
+    &__icon {
+
     }
   }
 }

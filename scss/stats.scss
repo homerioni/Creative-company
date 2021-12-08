@@ -88,4 +88,18 @@
       font-size: 18px;
     }
   }
+
+  @media (max-width: 1366px) {
+
+    &__icon {
+      width: 33px;
+    }
+    &__number {
+      font-size: 38px;
+      margin: 20px 0;
+    }
+    &__name {
+      font-size: 16px;
+    }
+  }
 }

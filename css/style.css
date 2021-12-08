@@ -178,6 +178,25 @@ button {
     font-size: 220px;
   }
 }
+@media (max-width: 1366px) {
+  .header__top {
+    padding-top: 15px;
+  }
+  .header__search {
+    height: 50px;
+  }
+  .header__searchIcon {
+    font-size: 18px;
+    margin: 8px 0 0 10px;
+  }
+  .header__title {
+    font-size: 70px;
+    line-height: 160px;
+  }
+  .header__title--big {
+    font-size: 180px;
+  }
+}
 
 .menu__list {
   list-style: none;
@@ -224,10 +243,15 @@ button {
 }
 @media (max-width: 1600px) {
   .menu__item {
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
   .menu__link {
     font-size: 15px;
+  }
+}
+@media (max-width: 1366px) {
+  .menu__item {
+    padding-bottom: 15px;
   }
 }
 
@@ -274,7 +298,6 @@ button {
     font-size: 15px;
   }
 }
-
 .coreService {
   margin: 150px 0 200px 0;
 }
@@ -395,6 +418,11 @@ button {
     line-height: 25px;
   }
 }
+@media (max-width: 1366px) {
+  .coreServiceInfo__title {
+    font-size: 22px;
+  }
+}
 
 .stats {
   padding: 150px 0;
@@ -489,6 +517,18 @@ button {
   }
   .stats__name {
     font-size: 18px;
+  }
+}
+@media (max-width: 1366px) {
+  .stats__icon {
+    width: 33px;
+  }
+  .stats__number {
+    font-size: 38px;
+    margin: 20px 0;
+  }
+  .stats__name {
+    font-size: 16px;
   }
 }
 
