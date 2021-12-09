@@ -116,7 +116,7 @@
   &__column {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 1600px;
 
     &:nth-child(1) {
       flex: 26%;
@@ -135,7 +135,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 120px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,14 +171,14 @@
     position: relative;
     z-index: 2;
     @include fontStyle('vidalokaregular', 63px, $colorBlack, normal);
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
   &__itemDescription {
     position: relative;
     z-index: 2;
     @include fontStyle('open_sansregular', 35px, $colorDarkGray, normal);
     line-height: 175%;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
   &__itemButton {
     position: relative;
@@ -196,18 +196,21 @@
   @media (max-width: 3200px) {
 
     &__item {
-      padding: 70px 90px;
+      padding: 70px;
     }
   }
 
   @media (max-width: 2880px) {
 
+    &__column {
+      height: 1250px;
+    }
     &__itemTitle {
-      margin-bottom: 80px;
+      margin-bottom: 70px;
       font-size: 53px;
     }
     &__itemDescription {
-      margin-bottom: 50px;
+      margin-bottom: 40px;
       font-size: 30px;
     }
     &__itemButton {
@@ -217,30 +220,51 @@
 
   @media (max-width: 2560px) {
 
+    &__column {
+      height: 1100px;
+    }
     &__item {
       padding: 50px;
+    }
+    &__itemTitle {
+      margin-bottom: 50px;
+      font-size: 44px;
+    }
+    &__itemDescription {
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+    &__itemButton {
+      font-size: 26px;
+      width: 300px;
     }
   }
 
   @media (max-width: 1920px) {
 
+    &__column {
+      height: 850px;
+    }
     &__itemTitle {
       margin-bottom: 40px;
-      font-size: 35px;
+      font-size: 30px;
     }
     &__itemDescription {
-      margin-bottom: 30px;
-      font-size: 22px;
+      margin-bottom: 20px;
+      font-size: 20px;
     }
     &__itemButton {
-      font-size: 25px;
-      padding: 15px 0;
-      width: 250px;
+      font-size: 20px;
+      padding: 12px 0;
+      width: 200px;
     }
   }
 
   @media (max-width: 1600px) {
 
+    &__column {
+      height: 650px;
+    }
     &__item {
       padding: 30px;
     }
@@ -249,13 +273,37 @@
       font-size: 28px;
     }
     &__itemDescription {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       font-size: 15px;
     }
     &__itemButton {
-      font-size: 18px;
-      padding: 10px 0;
-      width: 180px;
+      font-size: 16px;
+      padding: 8px 0;
+      width: 150px;
+      border: 2px solid $colorDarkBlue;
+    }
+  }
+
+  @media (max-width: 1280px) {
+
+    &__column {
+      height: 550px;
+    }
+    &__item {
+      padding: 20px 25px;
+    }
+    &__itemTitle {
+      margin-bottom: 15px;
+      font-size: 25px;
+    }
+    &__itemDescription {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    &__itemButton {
+      font-size: 14px;
+      padding: 7px 0;
+      width: 130px;
       border: 2px solid $colorDarkBlue;
     }
   }
