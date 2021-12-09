@@ -77,4 +77,21 @@
       height: 30px;
     }
   }
+
+  @media (max-width: 991px) {
+    padding-top: 60px;
+
+    &__title {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+    &__description {
+      font-size: 14px;
+      margin-bottom: 50px;
+      line-height: 25px;
+    }
+    &__logo {
+      height: 25px;
+    }
+  }
 }

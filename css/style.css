@@ -198,6 +198,21 @@ button {
     font-size: 180px;
   }
 }
+@media (max-width: 991px) {
+  .header__top {
+    padding-top: 10px;
+  }
+  .header__separator {
+    height: 35px;
+  }
+  .header__searchIcon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3px 0 0 10px;
+    font-size: 15px;
+  }
+}
 
 .menu__list {
   list-style: none;
@@ -255,6 +270,11 @@ button {
     padding-bottom: 15px;
   }
 }
+@media (max-width: 991px) {
+  .menu__link {
+    font-size: 13px;
+  }
+}
 
 .search__icon {
   color: #fff;
@@ -299,6 +319,15 @@ button {
     font-size: 15px;
   }
 }
+@media (max-width: 991px) {
+  .search__icon {
+    top: 7px;
+  }
+  .search__textInput {
+    font-size: 13px;
+  }
+}
+
 .coreService {
   margin: 150px 0 200px 0;
 }
@@ -343,6 +372,14 @@ button {
   .coreService__title {
     font-size: 30px;
     margin-bottom: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .coreService {
+    margin: 50px 0;
+  }
+  .coreService__title {
+    font-size: 24px;
   }
 }
 
@@ -422,6 +459,22 @@ button {
 @media (max-width: 1366px) {
   .coreServiceInfo__title {
     font-size: 22px;
+  }
+}
+@media (max-width: 991px) {
+  .coreServiceInfo__icon {
+    margin-right: 15px;
+  }
+  .coreServiceInfo__column {
+    margin: 0 20px 0 15px;
+  }
+  .coreServiceInfo__title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .coreServiceInfo__description {
+    font-size: 13px;
+    line-height: 20px;
   }
 }
 
@@ -530,6 +583,20 @@ button {
   }
   .stats__name {
     font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .stats {
+    padding: 60px 0;
+  }
+  .stats__icon {
+    width: 30px;
+  }
+  .stats__number {
+    font-size: 33px;
+  }
+  .stats__name {
+    font-size: 15px;
   }
 }
 
@@ -646,6 +713,23 @@ button {
     padding: 8px 30px;
     font-size: 15px;
     border: 2px #ffeb3b solid;
+  }
+}
+@media (max-width: 991px) {
+  .portfolio {
+    padding-top: 60px;
+  }
+  .portfolio__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .portfolio__description {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  .portfolio__button {
+    font-size: 14px;
+    padding: 7px 25px;
   }
 }
 
@@ -860,6 +944,26 @@ button {
     border: 2px solid #181a1f;
   }
 }
+@media (max-width: 991px) {
+  .works__column {
+    height: 500px;
+  }
+  .works__item {
+    padding: 15px;
+  }
+  .works__itemTitle {
+    font-size: 20px;
+  }
+  .works__itemDescription {
+    font-size: 12px;
+  }
+  .works__itemButton {
+    font-size: 12px;
+    padding: 6px 0;
+    width: 100px;
+    border: 2px solid #181a1f;
+  }
+}
 
 .service {
   padding: 300px 0;
@@ -1050,6 +1154,39 @@ button {
     font-size: 20px;
   }
 }
+@media (max-width: 991px) {
+  .service {
+    padding: 60px 0;
+  }
+  .service__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .service__description {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  .service__row {
+    height: 210px;
+    margin: 5px 0;
+  }
+  .service__item {
+    margin: 0 5px;
+    padding: 0 10px;
+  }
+  .service__itemTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .service__itemDescription {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+  .service__itemLink {
+    font-size: 16px;
+  }
+}
 
 .clients {
   background-image: url("../img/clients/Path.png");
@@ -1123,6 +1260,23 @@ button {
   }
   .clients__logo {
     height: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .clients {
+    padding-top: 60px;
+  }
+  .clients__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .clients__description {
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+  .clients__logo {
+    height: 25px;
   }
 }
 
@@ -1311,6 +1465,33 @@ button {
     margin: 0 10px;
   }
 }
+@media (max-width: 991px) {
+  .team {
+    padding-top: 60px;
+  }
+  .team__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .team__description {
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+  .team__item {
+    margin: 0 5px;
+  }
+  .team__info {
+    padding: 20px 0;
+  }
+  .team__name {
+    font-size: 22px;
+  }
+  .team__text {
+    font-size: 14px;
+    width: 90%;
+  }
+}
 
 .join {
   background-image: url("../img/join/Path.png");
@@ -1454,6 +1635,20 @@ button {
     font-size: 20px;
     margin-left: 10px;
     top: 1px;
+  }
+}
+@media (max-width: 991px) {
+  .join {
+    padding-top: 60px;
+  }
+  .join__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .join__description {
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 25px;
   }
 }
 

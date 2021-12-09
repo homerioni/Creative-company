@@ -124,6 +124,21 @@
       }
     }
   }
+
+  @media (max-width: 991px) {
+
+    &__top {
+      padding-top: 10px;
+    }
+    &__separator {
+      height: 35px;
+    }
+    &__searchIcon {
+      display: flex;
+      margin: 3px 0 0 10px;
+      font-size: 15px;
+    }
+  }
 }
 
 
@@ -192,6 +207,13 @@
       padding-bottom: 15px;
     }
   }
+
+  @media (max-width: 991px) {
+
+    &__link {
+      font-size: 13px;
+    }
+  }
 }
 
 
@@ -246,10 +268,13 @@
     }
   }
 
-  @media (max-width: 1366px) {
+  @media (max-width: 991px) {
 
     &__icon {
-
+      top: 7px;
+    }
+    &__textInput {
+      font-size: 13px;
     }
   }
 }

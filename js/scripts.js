@@ -20,8 +20,10 @@ $(document).ready(function () {
             input = '250px';
         } else if (width > 1600) {
             input = '200px';
-        } else {
+        } else if (width > 991) {
             input = '170px';
+        } else {
+            input = '130px';
         }
         $('.search__textInput').css({
             'width':input,
