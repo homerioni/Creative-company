@@ -44,6 +44,38 @@
     margin: 7px 0 0 30px;
     font-size: 25px;
   }
+  &__burger {
+    display: none;
+    cursor: pointer;
+
+    &Icon {
+      background-color: $colorWhite;
+      width: 30px;
+      height: 4px;
+      border-radius: 20px;
+
+      &:before {
+        display: inline-block;
+        content: '';
+        background-color: $colorWhite;
+        width: 30px;
+        height: 4px;
+        border-radius: 20px;
+        position: relative;
+        top: -20px;
+      }
+      &:after {
+        display: inline-block;
+        content: '';
+        background-color: $colorWhite;
+        width: 30px;
+        height: 4px;
+        border-radius: 20px;
+        position: relative;
+        top: -18px;
+      }
+    }
+  }
   &__content {
     padding: 300px 0 250px 0;
   }
@@ -129,14 +161,28 @@
 
     &__top {
       padding-top: 10px;
+      width: 70%;
+      margin: 0 auto;
+    }
+    &__logo {
+      flex: 30%;
     }
     &__separator {
       height: 35px;
+    }
+    &__search {
+      flex: 60%;
     }
     &__searchIcon {
       display: flex;
       margin: 3px 0 0 10px;
       font-size: 15px;
+    }
+    &__burger {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 10%;
     }
   }
 }
@@ -154,6 +200,7 @@
   &__item {
     color: $colorWhite;
     padding-bottom: 50px;
+    border-bottom: 1px solid transparent;
 
     &--active {
       color: $colorYellow;
@@ -209,9 +256,45 @@
   }
 
   @media (max-width: 991px) {
+    position: fixed;
+    z-index: 10;
+    left: -40vw;
+    top: 0;
+    margin: 0;
+    background-image: url("../img/footer/Path.png");
+    height: 100vh;
+    width: 40vw;
+    transition: left 0.5s;
+
+    &__open {
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 40vw;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        opacity: 0.5;
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+
+    &__item {
+      display: inline-block;
+      width: 20vw;
+      padding-bottom: 10px;
+      margin: 15px auto;
+    }
 
     &__link {
-      font-size: 13px;
+      font-size: 25px;
     }
   }
 }

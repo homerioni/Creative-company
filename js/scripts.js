@@ -23,7 +23,7 @@ $(document).ready(function () {
         } else if (width > 991) {
             input = '170px';
         } else {
-            input = '130px';
+            input = '250px';
         }
         $('.search__textInput').css({
             'width':input,
@@ -40,6 +40,19 @@ $(document).ready(function () {
         $('.search__icon').css('display', 'block');
     });
     //  /Search input
+
+    // Burger menu
+    $('#burger-menu').click(function () {
+        $('.menu').addClass('menu__open');
+        $('.header__menu').css('left', '0');
+    });
+    $('.header__menu').click(function(){
+        if (this.offsetWidth - event.offsetX < 0) {
+            $('.menu').removeClass('menu__open');
+            $('.header__menu').css('left', '-40vw');
+        }
+    });
+    // /Burger menu
 
     //  Portfolio button
     $('#portfolioAll').click(function () {
