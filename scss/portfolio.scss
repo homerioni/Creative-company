@@ -347,7 +347,7 @@
     }
   }
 
-  @media (max-width: 980px) {
+  @media (max-width: 767px) {
     position: relative;
     padding-bottom: 250px;
 
@@ -370,7 +370,17 @@
     }
     &__item {
       height: 100%;
+      width: auto;
       padding: 0 15px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    padding-bottom: 700px;
+
+    &__row:nth-child(2) {
+      flex-direction: column;
+      height: 700px;
     }
   }
 }

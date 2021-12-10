@@ -197,16 +197,22 @@
 
   @media (max-width: 767px) {
 
+    &__description {
+      width: 80%;
+    }
+    &__workers {
+      //flex-direction: column;
+      display: block;
+      text-align: center;
+    }
     &__item {
-      margin: 0 3px;
+      display: inline-block;
+      width: 45%;
+      margin: 0 10px 30px 10px;
+      flex: auto;
     }
     &__links {
-      padding: 10px 0;
-    }
-    &__linkItem {
-      width: 30px;
-      height: 30px;
-      font-size: 14px;
+      padding: 15px 0;
     }
   }
 }
