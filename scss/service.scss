@@ -208,4 +208,25 @@
       }
     }
   }
+
+  @media (max-width: 767px) {
+
+    &__description {
+      margin-bottom: 20px;
+    }
+    &__infoBlocks {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    &__row {
+      flex-direction: column;
+      height: auto;
+    }
+    &__item {
+      flex: auto;
+      margin: 10px auto;
+      width: 200px;
+      height: 200px;
+    }
+  }
 }

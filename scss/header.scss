@@ -185,6 +185,27 @@
       flex: 10%;
     }
   }
+
+  @media (max-width: 767px) {
+
+    &__logo {
+      flex: 80%;
+    }
+    &__search {
+      display: none;
+    }
+    &__burger {
+      flex: 20%;
+    }
+    &__title {
+      font-size: 55px;
+      line-height: 120px;
+
+      &--big {
+        font-size: 130px;
+      }
+    }
+  }
 }
 
 
@@ -258,12 +279,12 @@
   @media (max-width: 991px) {
     position: fixed;
     z-index: 10;
-    left: -40vw;
+    left: -50vw;
     top: 0;
     margin: 0;
     background-image: url("../img/footer/Path.png");
     height: 100vh;
-    width: 40vw;
+    width: 50vw;
     transition: left 0.5s;
 
     &__open {
@@ -271,7 +292,7 @@
         content: '';
         position: absolute;
         top: 0;
-        left: 40vw;
+        left: 50vw;
         width: 100vw;
         height: 100vh;
         background-color: #000;

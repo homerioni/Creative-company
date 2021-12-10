@@ -194,4 +194,19 @@
       width: 90%;
     }
   }
+
+  @media (max-width: 767px) {
+
+    &__item {
+      margin: 0 3px;
+    }
+    &__links {
+      padding: 10px 0;
+    }
+    &__linkItem {
+      width: 30px;
+      height: 30px;
+      font-size: 14px;
+    }
+  }
 }

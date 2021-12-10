@@ -144,4 +144,19 @@
       line-height: 25px;
     }
   }
+
+  @media (max-width: 767px) {
+
+    &__description {
+      width: 80%;
+    }
+    &__mailInput {
+      width: 60%;
+      height: 45px;
+    }
+    &__submit {
+      height: 45px;
+      font-size: 18px;
+    }
+  }
 }

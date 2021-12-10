@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    console.log($(document).width());
     //  Slider slick
     $('.multiple-items').slick({
         infinite: true,
@@ -49,7 +50,7 @@ $(document).ready(function () {
     $('.header__menu').click(function(){
         if (this.offsetWidth - event.offsetX < 0) {
             $('.menu').removeClass('menu__open');
-            $('.header__menu').css('left', '-40vw');
+            $('.header__menu').css('left', '-50vw');
         }
     });
     // /Burger menu
